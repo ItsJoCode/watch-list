@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # Home Page
   root "lists#index"
 
-  resources :lists, only: %i[index show]
+  resources :lists, only: %i[show]
   namespace :user do
     resources :lists do
       resources :bookmarks, only: %i[new create]

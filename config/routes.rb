@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'bookmarks/new'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   # All registration and session for user devise
   devise_for :users

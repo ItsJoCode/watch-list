@@ -1,0 +1,48 @@
+/* app/assets/stylesheets/application.css */
+.log {
+  background-color: white;
+  border-radius: 5px;
+  border: solid #e7e9ec;
+
+  a {
+    text-decoration: none;
+    color: #10a37f;
+  }
+}
+
+.btn-submit {
+  background-color: #10a37f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 0px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #139675;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.label-visible {
+  display: inline;
+  opacity: 1;
+  color: #10a37f;
+  font-size: 14px;
+  margin-left: 5px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.custom-input {
+  border-radius: 3px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #10a37f;
+}

@@ -2,7 +2,7 @@
   <div class="log col-12 col-sm-4 mx-auto p-4">
     <h2 class="text-center">Bienvenu sur Watch List</h2>
     <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name), class: "form-control", data: { turbo: :false }) do |f| %>
-      <div class="col-12 mb-1 pt-4">
+      <div class="col-12 mb-1 pt-3">
         <label for="<%= f.field_id(:email) %>" data-label-toggle-target="emaillabel" class="hidden">Email</label>
         <%= f.input :email,
                     label: false,
